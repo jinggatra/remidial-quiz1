@@ -51,6 +51,7 @@ public class Karyawan{
         this.goldar = goldar;
     }
     
+    //jawaban no 2
     public double getGaji() {
         return gaji;
     }
@@ -62,7 +63,7 @@ public class Karyawan{
     public double hitungGaji(){
         return gaji*potongan;
     }
-       
+    //--   
     public void info(){
         System.err.println("Nama \t\t: "+nama);
         System.err.println("ID Karyawan \t: "+np);
